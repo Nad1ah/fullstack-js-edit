@@ -1,13 +1,11 @@
-$(document).ready(function () {
-  $("#botao").on("click", function () {
-    $("#meu").text("Adeus");
-  });
+$("#botao").on("click", function () {
+  $("#meu").text("Adeus");
+});
 
-  $("#btn2").on("click", function () {
-    $("ol").append("<li>Appended item</li>");
-  });
+$("#btn2").on("click", function () {
+  $("ol").append("<li>Appended item</li>");
+});
 
-  $("ol").on("click", "li", function () {
-    $(this).remove();
-  });
+$("ol").on("click", "li", function () {
+  $(this).remove();
 });
