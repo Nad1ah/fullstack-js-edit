@@ -3,14 +3,14 @@ export default function JsxPage() {
     <div>
       <h1 style={{ textAlign: "center" }}>JSX</h1>
       <ul>
-        <li>Nome: Gustavo Rodrigues</li>
-        <li>Idade: 27 anos</li>
-        <li>Profissão (e empresa): Full Stack developer (KWAN)</li>
-        <li>Cidade: Barreiro</li>
-        <li>Passatempo favorito: Jogar tenis</li>
-        <li>Objetivo ao fazer o curso: Ensinar</li>
-        <li>O que mais gostei do curso até agora: A dedicação dos alunos</li>
-        <li>O que senti mais dificuldade até agora: Tempo curto</li>
+        <li>Nome: Nadiah Mauricio</li>
+        <li>Idade: 28 anos</li>
+        <li>Profissão: Motorista</li>
+        <li>Cidade: Lisboa</li>
+        <li>Passatempo favorito: Assistir séries, filmes</li>
+        <li>Objetivo ao fazer o curso: Mudar de profissão</li>
+        <li>O que mais gostei do curso até agora: ...</li>
+        <li>O que senti mais dificuldade até agora: Tempo curto, cansaço pós laboral</li>
       </ul>
     </div>
   );
