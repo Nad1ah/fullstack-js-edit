@@ -1,0 +1,112 @@
+Script started on Mon Dec  4 19:36:35 2023
+[1m[7m%[27m[1m[0m                                                                                     ]2;edit27@edits-air:~/Documents/Sem nome/javascript-typescript/unit-tests]1;..pt/unit-tests]7;file://edits-air.lan/Users/edit27/Documents/Sem%20nome/javascript-typescript/unit-tests\[0m[27m[24m[J[01;32m➜  [36munit-tests[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnpm run test[?1l>[?2004l
+]2;npm run test]1;npm
+> unit-tests@1.0.0 test /Users/edit27/Documents/Sem nome/javascript-typescript/unit-tests
+> jest
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A  script test
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A    [32m✓[39m [2mshould sum two numbers (3 ms)[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A[999D[K-----------|---------|----------|---------|---------|-------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------|---------|----------|---------|---------|-------------------
+[33;1mAll files [0m | [33;1m     75[0m | [33;1m      50[0m | [31;1m  33.33[0m | [33;1m     75[0m | [31;1m                 [0m 
+[33;1m script.js[0m | [33;1m     75[0m | [33;1m      50[0m | [31;1m  33.33[0m | [33;1m     75[0m | [31;1m29-30,35-38,40-44[0m 
+-----------|---------|----------|---------|---------|-------------------
+[1m[31mJest: "global" coverage threshold for statements (100%) not met: 75%[39m[22m
+[1m[31mJest: "global" coverage threshold for branches (100%) not met: 50%[39m[22m
+[1m[31mJest: "global" coverage threshold for lines (100%) not met: 75%[39m[22m
+[1m[31mJest: "global" coverage threshold for functions (100%) not met: 33.33%[39m[22m
+[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTests:       [22m[1m[32m1 passed[39m[22m, 1 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        0.94 s, estimated 1 s
+[2mRan all test suites[22m[2m.[22m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m unit-tests@1.0.0 test: `jest`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the unit-tests@1.0.0 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/edit27/.npm/_logs/2023-12-04T19_36_44_571Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                     ]2;edit27@edits-air:~/Documents/Sem nome/javascript-typescript/unit-tests]1;..pt/unit-tests]7;file://edits-air.lan/Users/edit27/Documents/Sem%20nome/javascript-typescript/unit-tests\[0m[27m[24m[J[01;31m➜  [36munit-tests[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hnpm run test[?1l>[?2004l
+]2;npm run test]1;npm
+> unit-tests@1.0.0 test /Users/edit27/Documents/Sem nome/javascript-typescript/unit-tests
+> jest
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mex.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mex.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [2msrc/[22m[1mscript.test.js[22m
+[K[1A[K[1A[999D[K-----------|---------|----------|---------|---------|-------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------|---------|----------|---------|---------|-------------------
+[33;1mAll files [0m | [33;1m  82.53[0m | [33;1m   85.71[0m | [33;1m  66.66[0m | [33;1m  82.53[0m | [31;1m                 [0m 
+[32;1m ex.js    [0m | [32;1m    100[0m | [32;1m     100[0m | [32;1m    100[0m | [32;1m    100[0m | [33;1m                 [0m 
+[33;1m script.js[0m | [33;1m     75[0m | [33;1m      50[0m | [31;1m  33.33[0m | [33;1m     75[0m | [31;1m29-30,35-38,40-44[0m 
+-----------|---------|----------|---------|---------|-------------------
+[1m[31mJest: "global" coverage threshold for statements (100%) not met: 82.53%[39m[22m
+[1m[31mJest: "global" coverage threshold for branches (100%) not met: 85.71%[39m[22m
+[1m[31mJest: "global" coverage threshold for lines (100%) not met: 82.53%[39m[22m
+[1m[31mJest: "global" coverage threshold for functions (100%) not met: 66.66%[39m[22m
+
+[1mTest Suites: [22m[1m[32m2 passed[39m[22m, 2 total
+[1mTests:       [22m[1m[32m6 passed[39m[22m, 6 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1.334 s
+[2mRan all test suites[22m[2m.[22m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m unit-tests@1.0.0 test: `jest`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the unit-tests@1.0.0 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/edit27/.npm/_logs/2023-12-04T20_07_35_813Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                     ]2;edit27@edits-air:~/Documents/Sem nome/javascript-typescript/unit-tests]1;..pt/unit-tests]7;file://edits-air.lan/Users/edit27/Documents/Sem%20nome/javascript-typescript/unit-tests\[0m[27m[24m[J[01;31m➜  [36munit-tests[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hmnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/edit27/.npm/_logs/2023-12-04T20_07_35_813Z-debug.log
+[0m[1m[7m%[27m[1m[0m                                                                                     ]2;edit27@edits-air:~/Documents/Sem nome/javascript-typescript/unit-tests]1;..pt/unit-tests]7;file://edits-air.lan/Users/edit27/Documents/Sem%20nome/javascript-typescript/unit-tests\[0m[27m[24m[J[01;31m➜  [36munit-tests[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
