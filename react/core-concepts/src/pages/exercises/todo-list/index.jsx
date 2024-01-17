@@ -14,27 +14,27 @@ function TodoListPage() {
   return (
     <div>
       <h1>Todo List</h1>
-      <div>
-        <form
-          onSubmit={(event) => {
-            event.preventDefault();
-            setInputItens([...itens, inputValue]);
-          }}
-        >
-          <input
-            type="text"
-            value={inputValue}
-            onChange={(event) => setInputValue(event.target.value)}
-          />
-          <button type="submit">Adicionar</button>
-        </form>
-        <ul>
-          {itens.map((item, key) => (
-            <li key={`${key}-${item}`}>{item}</li>
-          ))}
-        </ul>
-      </div>
-      <div></div>
+
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
+          setInputItens([...itens, inputValue]);
+        }}
+      >
+        <input
+          type="text"
+          value={inputValue}
+          onChange={(event) => setInputValue(event.target.value)}
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+      <ul>
+        {itens.map((item, index) => (
+          <li key={`${index}-${item}`} onClick={() => handleRemove(index)}>
+            {item}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
