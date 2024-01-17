@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.todo-list {
+.todo {
   width: 300px;
   background-color: #fff;
   padding: 20px;
@@ -17,23 +17,23 @@ body {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.todo-list h1 {
+.todo h1 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.todo-list form {
+.todo form {
   display: flex;
 }
 
-.todo-list input[type="text"] {
+.todo input[type="text"] {
   flex-grow: 1;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
 
-.todo-list button {
+.todo button {
   padding: 10px 20px;
   border: none;
   background-color: #007bff;
@@ -42,17 +42,17 @@ body {
   margin-left: 10px;
 }
 
-.todo-list ul {
+.todo ul {
   list-style-type: none;
   padding: 0;
 }
 
-.todo-list li {
+.todo li {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
 
-.todo-list li input[type="checkbox"] {
+.todo li input[type="checkbox"] {
   margin-right: 10px;
 }
