@@ -39,7 +39,11 @@ function ExercisesPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`Name: ${name}Email: ${email}Subject: ${subject}`);
+    alert(`
+    Name: ${name}
+    Email: ${email}
+    Subject: ${subject}
+    `);
     setName("");
     setEmail("");
     setSubject("");
@@ -72,6 +76,7 @@ function ExercisesPage() {
               <label className="exercises-name">Name:</label>
               <input
                 type="text"
+                value={name}
                 onChange={(event) => setName(event.target.value)}
               />
             </div>
