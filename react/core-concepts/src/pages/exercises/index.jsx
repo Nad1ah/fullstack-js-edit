@@ -33,6 +33,17 @@ const CardComponent = ({ title, description, image }) => {
 };
 
 function ExercisesPage() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Name: ${name}Email: ${email}Subject: ${subject}`);
+    setName("");
+    setEmail("");
+    setSubject("");
+  };
   return (
     <>
       <div className="exercises-card-container">
@@ -49,54 +60,48 @@ function ExercisesPage() {
           ))}
         </div>
       </div>
-
+      <br />
+      <br />
       <div>
-        <h1>Contact Form</h1>
-        <form onSubmit={handleSubmit}>
-          <div>
-            <label>Name:</label>
-            <input
-              type="text"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-            />
-          </div>
-          <div>
-            <label>Email:</label>
-            <input
-              type="text"
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
-            />
-          </div>
-          <div>
-            <label>Assunto:</label>
-            <input
-              type="text"
-              value={subject}
-              onChange={(event) => setSubject(event.target.value)}
-            />
-          </div>
-          <button type="submit">Submit</button>
-        </form>
+        <fieldset>
+          <h1>Contact Form</h1>
+          <form onSubmit={handleSubmit}>
+            <div>
+              <br />
+
+              <label className="exercises-name">Name:</label>
+              <input
+                type="text"
+                onChange={(event) => setName(event.target.value)}
+              />
+            </div>
+            <br />
+            <div>
+              <label className="exercises-email">Email:</label>
+              <input
+                type="text"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
+              />
+            </div>
+            <br />
+            <div>
+              <label className="exercises-assunto">Assunto:</label>
+              <input
+                type="text"
+                value={subject}
+                onChange={(event) => setSubject(event.target.value)}
+              />
+            </div>
+            <br />
+            <button type="submit" className="exercises-button">
+              Submit
+            </button>
+          </form>
+        </fieldset>
       </div>
     </>
   );
 }
-
-function ExercisesPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(`Name: ${name}Email: ${email}Subject: ${subject}`);
-    setName("");
-    setEmail("");
-    setSubject("");
-  };
-
-  
 
 export default ExercisesPage;
